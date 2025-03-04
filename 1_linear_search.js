@@ -1,4 +1,4 @@
-const array = [1,4,5,8,5,1,2,7,5,2,11]
+const array = [1, 4, 5, 8, 5, 1, 2, 7, 5, 2, 11]
 let count = 0
 function linearSearch(array, item) {
     for (let i = 0; i < array.length; i++) {
@@ -10,5 +10,5 @@ function linearSearch(array, item) {
     return null
 }
 
-console.log(linearSearch(array, 1))
+console.log(linearSearch(array, 2))
 console.log('count = ', count)
